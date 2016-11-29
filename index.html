@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="game.js"></script>
+    <script src="sprite.js"></script>
+</head>
+
+<body onload="highScoreUpdate();">
+<select id="selection" onchange="main(this.value)">
+    <option value="100">Choose a difficulty</option>
+    <option value="150">Easy</option>
+    <option value="100">Medium</option>
+    <option value="60">Hard</option>
+    <option value="30">Expert</option>
+</select>
+<div id="score"></div>
+<div id="highScore"></div>
+<div id="game"></div>
+</body>
+</html>
